@@ -21,7 +21,7 @@ public class App{
       String name = request.queryParams("name");
       String secretIdentity = request.queryParams("secretIdentity");
       String sex = request.queryParams("sex");
-      int age = request.queryParams("age");
+      int age = request.queryParams(age);
       String powers = request.queryParams("powers");   
       Hero newHero = new Hero(name, secretIdentity, sex, age, powers);
       request.session().attribute("hero", newHero);
