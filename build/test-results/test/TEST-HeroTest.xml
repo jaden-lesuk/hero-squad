@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HeroTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-28T09:56:34" hostname="Deathstar" time="0.005">
+  <properties/>
+  <testcase name="Hero_instantiatesCorrectly_True" classname="HeroTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
