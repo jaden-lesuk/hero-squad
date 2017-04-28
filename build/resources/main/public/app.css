@@ -3,10 +3,23 @@
   src: url('action.ttf'); 
 }
 
+@font-face{
+  font-family: 'action-fill';
+  src: url('action-fill.ttf'); 
+}
+
+body{
+  background-image: url('wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1{
   text-align: center;
-  font-family: action-comic;
+  font-family: action-fill;
   margin-bottom: 40px;
+  color: #E5E338;
 }
 
 h2{
