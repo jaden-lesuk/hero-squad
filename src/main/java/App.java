@@ -44,7 +44,8 @@ public class App{
       String sex = request.queryParams("sex");
       int age = Integer.parseInt(request.queryParams("age"));
       String powers = request.queryParams("powers");
-      Hero newHero = new Hero(name, secretIdentity, sex, age, powers);
+      String image = request.queryParams("image");
+      Hero newHero = new Hero(name, secretIdentity, sex, age, powers, image);
       heroes.add(newHero);
 
       model.put("template", "templates/success.vtl");

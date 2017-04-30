@@ -28,6 +28,12 @@
       <label class="text-danger" for="powers">Powers:</label><br>
       <input name="powers" id="powers" type="text">
     </div>
+
+    <div class="form-group">
+      <label class="text-danger" for="image">Image:</label><br>
+      <input name="image" id="image" type="text">
+    </div>
+
     <button type="submit" class="btn btn-success">Add Hero</button>
   </form>
 </div>
@@ -41,7 +47,7 @@
     <div class="well hero-well">
       
       <p class="hero-image pull-left">
-        <img src="https://static.comicvine.com/uploads/square_small/8/80111/5770666-superman+54.png" class="img-circle" alt="hero logo" width="150px" height="150px">
+        <img src="$hero.getImage()" class="img-circle" alt="hero logo" width="150px" height="150px">
       </p>
 
       <p class="hero-entry">$hero.getName().toUpperCase()</p>
