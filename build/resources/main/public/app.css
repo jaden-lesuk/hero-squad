@@ -13,6 +13,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 h1{
@@ -30,4 +31,14 @@ h2{
 #scs-col{
   margin-top: 50px;
   text-align: center;
+}
+
+#hero-entry{
+   font-family: action-comic;
+   color: black;
+   font-size: 15px;
+}
+
+#hero-well{
+  background-color: #A9A9A9;
 }
