@@ -38,8 +38,13 @@
   #if ($heroes)
   <ul>
     #foreach ($hero in $heroes)
-    <div class="well" id="hero-well">
-      <p id="hero-entry">$hero.getName().toUpperCase()</p>
+    <div class="well hero-well">
+      
+      <p class="hero-image pull-left">
+        <img src="https://static.comicvine.com/uploads/square_small/8/80111/5770666-superman+54.png" class="img-circle" alt="hero logo" width="150px" height="150px">
+      </p>
+
+      <p class="hero-entry">$hero.getName().toUpperCase()</p>
       <!--<p>$hero.getSecretIdentity()</p>-->
       <p>Secret Identity:*******</p>
       <p>Sex:$hero.getSex()</p>

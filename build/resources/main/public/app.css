@@ -33,12 +33,18 @@ h2{
   text-align: center;
 }
 
-#hero-entry{
+.hero-entry{
    font-family: action-comic;
    color: black;
    font-size: 15px;
 }
 
-#hero-well{
-  background-color: #A9A9A9;
+.hero-well{
+  background-color: #696969;
+  color: white;
+}
+
+.hero-image{
+  text-align: center;
+  margin-right: 5px;
 }
