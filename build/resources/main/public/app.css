@@ -48,3 +48,7 @@ h2{
   text-align: center;
   margin-right: 5px;
 }
+
+input{
+  width: 300px;
+}
